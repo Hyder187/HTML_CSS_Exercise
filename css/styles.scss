@@ -4,6 +4,11 @@ html {
   margin: 0;
 }
 
+@media (max-width: 600px) {
+  body .footer p {
+    font-size: 15px;
+  }
+}
 .navbar {
   margin: 0;
   padding: 0;
@@ -193,7 +198,7 @@ html {
   margin: 5px 15px 5px 15px;
 
   img {
-    background: #fff;
+    background: #f0f0f0;
     padding: 0;
     margin: 5px;
   }
@@ -209,12 +214,21 @@ html {
   }
 }
 
+.twitter {
+  background: #262728;
+}
+
+.mail {
+  background: #262728;
+}
+
 .social-media-bar-item:hover {
   padding-top: 15px;
 }
 
-#social-media-bar-item-img-twitter {
-  background: #262728;
+.social-media-bar-item img {
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .footer-divider {
